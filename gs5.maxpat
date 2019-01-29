@@ -56,7 +56,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 744.0, 425.0, 93.0, 20.0 ],
+					"patching_rect" : [ 737.0, 421.0, 93.0, 20.0 ],
 					"text" : "scale 0 240 10 500"
 				}
 
