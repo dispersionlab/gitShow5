@@ -36,11 +36,11 @@
         },
         {
           "id": 1,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 2,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 3,
@@ -66,23 +66,23 @@
       "params": [
         {
           "id": 0,
-          "value": 1.0
+          "value": 0.703502536
         },
         {
           "id": 1,
-          "value": 0.5
+          "value": 0.549500287
         },
         {
           "id": 2,
-          "value": 1.0
+          "value": 0.557499766
         },
         {
           "id": 3,
-          "value": 1.0
+          "value": 0.0189989507
         },
         {
           "id": 4,
-          "value": 0.13199994
+          "value": 0.852002144
         }
       ],
       "leftModuleId": 17,
@@ -99,19 +99,19 @@
       "params": [
         {
           "id": 0,
-          "value": 0.403500199
+          "value": 0.717500031
         },
         {
           "id": 1,
-          "value": 0.743000448
+          "value": 0.78199935
         },
         {
           "id": 2,
-          "value": 0.5
+          "value": 0.544000387
         },
         {
           "id": 3,
-          "value": 0.576500058
+          "value": 0.85100019
         }
       ],
       "leftModuleId": 26,
@@ -322,15 +322,15 @@
         },
         {
           "id": 1,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 2,
-          "value": -2.95100141
+          "value": 2.7459867
         },
         {
           "id": 3,
-          "value": 0.232500702
+          "value": 2.99100018
         },
         {
           "id": 4,
@@ -351,35 +351,35 @@
       "params": [
         {
           "id": 0,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 1,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 2,
-          "value": 10.0
+          "value": 3.43899441
         },
         {
           "id": 3,
-          "value": 0.0
+          "value": 0.342000216
         },
         {
           "id": 4,
-          "value": 0.0
+          "value": 0.373500049
         },
         {
           "id": 5,
-          "value": 0.5
+          "value": 0.625433207
         },
         {
           "id": 6,
-          "value": 0.0
+          "value": 0.000995576847
         }
       ],
       "pos": [
-        30,
+        34,
         1
       ]
     },
@@ -399,6 +399,7 @@
         }
       ],
       "leftModuleId": 23,
+      "rightModuleId": 29,
       "data": {
         "format": "wav",
         "path": "/Users/mp/_gitshows/gitShow5/recording5.wav",
@@ -409,6 +410,35 @@
       },
       "pos": [
         74,
+        1
+      ]
+    },
+    {
+      "id": 29,
+      "plugin": "VCV-Recorder",
+      "version": "1.0.1",
+      "model": "Recorder",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 28,
+      "data": {
+        "format": "wav",
+        "path": "/Users/pacifist/Documents/GitHub/gitShow5/sessiondispersionrecording.wav",
+        "incrementPath": true,
+        "sampleRate": 44100,
+        "depth": 16,
+        "bitRate": 320000
+      },
+      "pos": [
+        79,
         1
       ]
     }
@@ -439,28 +469,12 @@
       "color": "#0c8e15"
     },
     {
-      "id": 317,
-      "outputModuleId": 27,
-      "outputId": 1,
-      "inputModuleId": 17,
-      "inputId": 0,
-      "color": "#0986ad"
-    },
-    {
       "id": 319,
       "outputModuleId": 17,
       "outputId": 0,
       "inputModuleId": 4,
       "inputId": 3,
       "color": "#c9b70e"
-    },
-    {
-      "id": 321,
-      "outputModuleId": 27,
-      "outputId": 2,
-      "inputModuleId": 2,
-      "inputId": 5,
-      "color": "#c91847"
     },
     {
       "id": 320,
@@ -495,14 +509,6 @@
       "color": "#0c8e15"
     },
     {
-      "id": 325,
-      "outputModuleId": 2,
-      "outputId": 1,
-      "inputModuleId": 28,
-      "inputId": 2,
-      "color": "#c91847"
-    },
-    {
       "id": 326,
       "outputModuleId": 2,
       "outputId": 2,
@@ -511,12 +517,52 @@
       "color": "#0986ad"
     },
     {
+      "id": 329,
+      "outputModuleId": 2,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
       "id": 327,
       "outputModuleId": 2,
       "outputId": 2,
-      "inputModuleId": 28,
+      "inputModuleId": 29,
       "inputId": 3,
       "color": "#c9b70e"
+    },
+    {
+      "id": 325,
+      "outputModuleId": 2,
+      "outputId": 1,
+      "inputModuleId": 29,
+      "inputId": 2,
+      "color": "#c91847"
+    },
+    {
+      "id": 328,
+      "outputModuleId": 27,
+      "outputId": 1,
+      "inputModuleId": 26,
+      "inputId": 2,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 317,
+      "outputModuleId": 27,
+      "outputId": 2,
+      "inputModuleId": 17,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 321,
+      "outputModuleId": 27,
+      "outputId": 0,
+      "inputModuleId": 2,
+      "inputId": 5,
+      "color": "#c91847"
     }
   ]
 }
