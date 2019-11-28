@@ -8,3 +8,4 @@ module5.js is a voltage-controlled oscillator, with both knob and cv-control ove
 ## Score:
 
 This is a new repo, so the score hasn't been written yet... See the file *markdown_examples.md* for help with formatting in markdown, including embedding images, links, tables, etc. 
+This score is about word poetry sonified as energy 
